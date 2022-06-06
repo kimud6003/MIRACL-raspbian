@@ -1,5 +1,41 @@
 MIRACL
 ======
+
+
+## Raspberry Pi Installation
+
+- My Raspberry Pi did not install the library, so I created and operated the "lib/linux-raspbian.sh" file. (2021-05)
+
+- For those of you who are reading this, I hope you can solve it well through that method.
+
+
+### 1) Download this repo to a zip file
+
+- this repo's linux.txt tells you how to extract it by creating it as a zip file.
+
+- run `unzip -j -aa -L MIRACL-master.zip`
+
+- If there is no unzip, install the `apt install unzip`
+
+
+### 2) bash linux-raspbian
+
+- You'll probably see two sentences coming out below 
+
+```bash
+
+rm : cannot remove '.exe' : no such file or directory
+rm : cannot remove 'miracl.a' : no such file or directory
+```
+
+### 3) Test Miracl 
+
+- You can test it through the `bmark` program provided by the Miracl library.
+
+- run `./bmark` 
+
+
+
 What is MIRACL?
 Multiprecision Integer and Rational Arithmetic Cryptographic Library – the MIRACL Crypto SDK – is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
 
